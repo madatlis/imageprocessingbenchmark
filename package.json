@@ -1,0 +1,23 @@
+{
+  "name": "imageprocessingbenchmark",
+  "version": "1.0.0",
+  "description": "",
+  "main": "runner.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fillerwriter/imageprocessingbenchmark.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fillerwriter/imageprocessingbenchmark/issues"
+  },
+  "homepage": "https://github.com/fillerwriter/imageprocessingbenchmark#readme",
+  "dependencies": {
+    "pidusage": "^1.0.4",
+    "ps-node": "^0.1.2"
+  }
+}
