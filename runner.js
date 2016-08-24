@@ -51,7 +51,6 @@ function fireChildProcess(call, cb) {
   });
 
   childProcess.on('close', (code) => {
-    console.log(`child process exited with code ${code}`);
     clearInterval(intervals[call.primary]);
     clearInterval(intervals[call.secondary]);
     cb();
