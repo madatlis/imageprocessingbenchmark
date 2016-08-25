@@ -19,8 +19,9 @@ This benchmark attempts to simulate the way that Drupal would process an image w
 
 ## Setting up with Docker
 Run the following in a terminal with docker daemon running:
-- docker build -t <container-name> .
-- docker run -it <container-name> bash
+- `docker build -t <container-name> . `
+- `docker run -it <container-name> bash `
+
 
 
 ## Run Test
