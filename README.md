@@ -17,6 +17,11 @@ This benchmark attempts to simulate the way that Drupal would process an image w
 
 `npm install`
 
+## Setting up with Docker
+`docker build -t <container-name> . `
+`docker run -it <container-name> bash`
+
+
 ## Run Test
 
 `node runner.js`
